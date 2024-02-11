@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+  }
+  
+  p {
+    margin: 24px 0;
+    line-height: 2;
+  }
+  
+  .wrapper {
+    padding: 32px;
+  }
+  .cookiesp  {
+      color: #fff;
+      padding: 30px;
+      text-align:center;
+      font-size: 13px;
+  
+  }
+  
+  .cookie-container {
+      
+      opacity: 0.9;
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    z-index: 333;
+    right: 0;
+    background: #292929;
+    color: #f5f6fa;
+    padding: 0 32px;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+    transition: 400ms;
+  }
+  .button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+      color: #fff;
+      background: #cca776;
+  }
+  
+  .cookie-container.active {
+    bottom: 0;
+  }
+  
+  .cookie-container a {
+    color: #f5f6fa;
+  }
+  
+  .cookie-btn {
+    background: #006dc7;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 48px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
